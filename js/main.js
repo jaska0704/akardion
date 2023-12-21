@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
         accordionContent.style.maxHeight = 0;
       }
 
-      // Close other accordion items
       const otherAccordionItems = document.querySelectorAll(
         ".accordion-item:not(.active)"
       );
